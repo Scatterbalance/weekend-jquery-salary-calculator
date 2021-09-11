@@ -1,8 +1,9 @@
 body{
     border: 1px solid black;
     padding: 10px;
-    align-items: center;
-    
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 #heading {
@@ -10,14 +11,24 @@ body{
     background-color: rgba(7,170,158,1.0); 
     color: white;
     text-align : center;
+    margin-left: -10px;
+    margin-right: -10px;
+    
 
 }
 #table,th,td{
     border: 1px solid black;
     border-collapse: collapse;
     column-width: 114.5pt;
+    text-align: center;
+
    
 }
 .red {
     color: red
+}
+.rightAlign{
+   
+   text-align: right;
+   margin-right: 50px;
 }

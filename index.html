@@ -10,21 +10,27 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<div id = mainDiv>
+<div id = mainDiv >
     <div id = "heading">
         <h1>Salary Calculator</h1>
     </div>
-    <div id = "addEmployee">
+    <div id = "addEmployee" >
         <input type = "text" id = "fName" placeholder="First Name">
         <input type = "text" id = "lName" placeholder="Last Name">
         <input type = "text" id = "idNum" placeholder="ID">
         <input type = "text" id = "jobTitle" placeholder="Title">
         <input type = "number" id = "salary" placeholder="Annual Salary">
-    
+        <button id = "addEmployeeButton" >Submit</button>
     </div>
-    <button id = "addEmployeeButton">Submit</button>
+
+
+    
+   
+    
+
+
     <h3>Employees</h3>
-    <table id = "table">
+    <table id = "table" >
 
         <thead>
             <th>First Name</th>
@@ -39,12 +45,16 @@
 
 
         </tbody>
+        <tfoot>
+            <td colspan="6" height = "20px"></td>
+        </tfoot>
         
         
     </table>
-    <p id = "monthlySalary"></p>
-    <p id = "totalSalary"></p>
-
+    <div class="rightAlign">
+    <h3 id = "monthlySalary" class = "rightAlign"></h3>
+    <h3 id = "totalSalary" class = "rightAlign"></h3>
+    </div>
 </div> 
 
 
